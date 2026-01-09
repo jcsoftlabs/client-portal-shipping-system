@@ -9,8 +9,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Haiti Shipping - Votre adresse USA pour vos envois en Haïti",
-  description: "Recevez vos colis des USA en Haïti en toute sécurité. Adresse personnalisée gratuite + Livraison rapide.",
+  title: "Yeng Shipping And Services - Votre adresse USA pour vos envois en Haïti",
+  description: "Recevez vos colis des USA en Haïti en toute sécurité avec Yeng Shipping And Services. Adresse personnalisée gratuite + Livraison rapide.",
 };
 
 export default function RootLayout({

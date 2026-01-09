@@ -8,11 +8,12 @@ export default function HomePage() {
       <nav className="border-b bg-white/80 backdrop-blur-sm sticky top-0 z-50">
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
-            <div className="flex items-center gap-2">
-              <Package className="h-8 w-8 text-blue-600" />
-              <span className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-orange-500 bg-clip-text text-transparent">
-                Haiti Shipping
-              </span>
+            <div className="flex items-center">
+              <img
+                src="/yeng-logo.png"
+                alt="Yeng Shipping And Services"
+                className="h-12 w-auto object-contain"
+              />
             </div>
             <div className="hidden md:flex items-center gap-8">
               <Link href="#services" className="text-gray-800 hover:text-blue-600 transition-colors">
@@ -245,9 +246,12 @@ export default function HomePage() {
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-4 gap-8">
             <div>
-              <div className="flex items-center gap-2 mb-4">
-                <Package className="h-6 w-6 text-blue-400" />
-                <span className="text-xl font-bold text-white">Haiti Shipping</span>
+              <div className="mb-4">
+                <img
+                  src="/yeng-logo.png"
+                  alt="Yeng Shipping And Services"
+                  className="h-10 w-auto object-contain brightness-0 invert"
+                />
               </div>
               <p className="text-sm">
                 Votre partenaire de confiance pour vos envois entre les USA et Haïti
@@ -279,7 +283,7 @@ export default function HomePage() {
             </div>
           </div>
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-sm">
-            <p>&copy; 2025 Haiti Shipping. Tous droits réservés.</p>
+            <p>&copy; 2025 Yeng Shipping And Services. Tous droits réservés.</p>
           </div>
         </div>
       </footer>

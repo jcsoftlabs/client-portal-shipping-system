@@ -3,6 +3,7 @@
 import { useEffect, useState } from 'react';
 import { useRouter, usePathname } from 'next/navigation';
 import Link from 'next/link';
+import Image from 'next/image';
 import { Package, Home, MapPin, History, FileText, User, LogOut, Menu, X, Bell } from 'lucide-react';
 
 export default function DashboardLayout({ children }: { children: React.ReactNode }) {
@@ -59,11 +60,15 @@ export default function DashboardLayout({ children }: { children: React.ReactNod
                 <div className="px-4 sm:px-6 lg:px-8">
                     <div className="flex justify-between h-16">
                         <div className="flex items-center">
-                            <Link href="/dashboard" className="flex items-center gap-2">
-                                <Package className="h-8 w-8 text-blue-600" />
-                                <span className="text-xl font-bold bg-gradient-to-r from-blue-600 to-orange-500 bg-clip-text text-transparent">
-                                    Haiti Shipping
-                                </span>
+                            <Link href="/dashboard" className="flex items-center">
+                                <Image
+                                    src="/yeng-logo.png"
+                                    alt="Yeng Shipping And Services"
+                                    width={180}
+                                    height={60}
+                                    className="object-contain"
+                                    priority
+                                />
                             </Link>
                         </div>
                         <div className="flex items-center gap-4">
