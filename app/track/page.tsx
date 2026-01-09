@@ -113,13 +113,36 @@ export default function TrackPage() {
                                 className="h-12 w-auto object-contain"
                             />
                         </Link>
-                        <div className="flex items-center gap-4">
-                            <Link href="/login" className="text-gray-800 hover:text-blue-600 transition-colors font-medium">
+                        <div className="hidden md:flex items-center gap-8">
+                            <Link href="/#services" className="text-gray-700 hover:text-blue-600 transition-colors font-medium">
+                                Services
+                            </Link>
+                            <Link href="/#pricing" className="text-gray-700 hover:text-blue-600 transition-colors font-medium">
+                                Tarifs
+                            </Link>
+                            <Link href="/#how-it-works" className="text-gray-700 hover:text-blue-600 transition-colors font-medium">
+                                Comment ça marche
+                            </Link>
+                            <Link href="/track" className="text-blue-600 hover:text-blue-700 transition-colors font-semibold border-b-2 border-blue-600 pb-1">
+                                Tracking
+                            </Link>
+                            <Link href="/login" className="text-gray-700 hover:text-blue-600 transition-colors font-medium">
                                 Connexion
                             </Link>
                             <Link
                                 href="/register"
                                 className="bg-blue-600 text-white px-6 py-2.5 rounded-lg hover:bg-blue-700 transition-all shadow-md hover:shadow-lg font-medium"
+                            >
+                                S'inscrire
+                            </Link>
+                        </div>
+                        <div className="md:hidden flex items-center gap-4">
+                            <Link href="/login" className="text-gray-700 hover:text-blue-600 transition-colors font-medium">
+                                Connexion
+                            </Link>
+                            <Link
+                                href="/register"
+                                className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-all font-medium text-sm"
                             >
                                 S'inscrire
                             </Link>
