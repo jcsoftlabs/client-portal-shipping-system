@@ -3,6 +3,12 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+
+  /* Yeng Brand Colors */
+  --yeng-blue: #2563eb;
+  --yeng-blue-dark: #1e3a8a;
+  --yeng-orange: #f97316;
+  --yeng-red: #ef4444;
 }
 
 @theme inline {
@@ -10,6 +16,12 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+
+  /* Yeng Brand Colors */
+  --color-yeng-blue: var(--yeng-blue);
+  --color-yeng-blue-dark: var(--yeng-blue-dark);
+  --color-yeng-orange: var(--yeng-orange);
+  --color-yeng-red: var(--yeng-red);
 }
 
 @media (prefers-color-scheme: dark) {
