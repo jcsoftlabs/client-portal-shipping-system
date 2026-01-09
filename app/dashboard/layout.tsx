@@ -124,8 +124,8 @@ export default function DashboardLayout({ children }: { children: React.ReactNod
 
             <div className="flex pt-16">
                 {/* Desktop Sidebar */}
-                <aside className="hidden lg:block w-64 bg-white border-r border-gray-200 fixed left-0 top-16 bottom-0 overflow-y-auto">
-                    <nav className="py-6 px-4">
+                <aside className="lg:flex hidden flex-col w-64 bg-white border-r border-gray-200 fixed left-0 top-16 bottom-0 z-20">
+                    <nav className="flex-1 overflow-y-auto py-6 px-4">
                         <div className="space-y-1">
                             {navigation.map((item) => {
                                 const isActive = pathname === item.href;
@@ -147,7 +147,7 @@ export default function DashboardLayout({ children }: { children: React.ReactNod
                     </nav>
                 </aside>
 
-                {/* Main Content - with left margin on desktop for sidebar */}
+                {/* Main Content */}
                 <main className="flex-1 lg:ml-64 p-4 sm:p-6 lg:p-8 pb-24 lg:pb-8">
                     <div className="max-w-7xl mx-auto">
                         {children}
