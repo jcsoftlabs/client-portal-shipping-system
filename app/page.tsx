@@ -276,7 +276,7 @@ export default function HomePage() {
             <div>
               <h4 className="font-bold text-white mb-4">Contact</h4>
               <ul className="space-y-2 text-sm">
-                <li>📞 +509 1234-5678</li>
+                <li>📞 +509 3641 1990</li>
                 <li>📧 contact@yengshipping.com</li>
                 <li>📍 Port-au-Prince, Haïti</li>
               </ul>
